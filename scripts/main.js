@@ -1,6 +1,6 @@
-
-//Main dependencies
+//Main config file
 require.config({
+  //Define 3rd party plugins dependencies
   paths: {
     hammer: "external/hammer.min"
   }
