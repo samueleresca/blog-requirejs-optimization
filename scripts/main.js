@@ -1,4 +1,4 @@
-//Main config file
+//Main config file: http://requirejs.org/docs/api.html#config-baseUrl
 require.config({
   //Define 3rd party plugins dependencies
   paths: {
@@ -6,7 +6,7 @@ require.config({
   }
 });
 
-//Main execution
+//Main module
 require(["module-one", "module-two", "module-three"], function () {
   console.log("Main: loaded");
 });
